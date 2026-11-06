@@ -1,0 +1,12 @@
+2026-11-05 23:00:51,808 | INFO | Início do processamento distribuído (multiprocessing).
+2026-11-05 23:00:51,809 | INFO | Arquivo: C:\Users\Ysnun\OneDrive\Documentos\Yara\CoeCode\trabalho_paralelismo_parteB\yellow_tripdata_2016-02.csv (1783554554 bytes)
+2026-11-05 23:00:51,810 | INFO | Núcleos lógicos disponíveis: 12
+2026-11-05 23:00:51,810 | INFO | Processos: 2 | chunksize CSV: 50000 linhas
+2026-11-05 23:00:51,810 | INFO | Estratégia: leitura em blocos, map por worker e reduce final.
+2026-11-05 23:00:51,811 | INFO | Referência Parte A ausente; gerando resultados_parte_a.json com execução sequencial da mesma função map/reduce.
+2026-11-05 23:02:28,926 | INFO | Referência sequencial concluída em 97.084 s; 11382049 linhas processadas.
+2026-11-05 23:03:34,199 | INFO | Processamento paralelo concluído em 65.206 s.
+2026-11-05 23:03:34,203 | INFO | Total de linhas processadas: 11382049
+2026-11-05 23:03:34,204 | INFO | Validação automática contra resultados_parte_a.json: APROVADA (tolerâncias rel=1e-09, abs=1e-06).
+2026-11-05 23:03:34,204 | INFO | Resultado: C:\Users\Ysnun\OneDrive\Documentos\Yara\CoeCode\trabalho_paralelismo_parteB\resultados\resultados_parte_b.json
+2026-11-05 23:03:34,228 | INFO | Log: C:\Users\Ysnun\OneDrive\Documentos\Yara\CoeCode\trabalho_paralelismo_parteB\resultados\execucao_parte_b.log
